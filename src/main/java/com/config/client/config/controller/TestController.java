@@ -29,4 +29,9 @@ public class TestController {
     public String from1(){
         return environment.getProperty("from","undefiend");
     }
+
+    @RequestMapping("/from2")
+    public String from2(){
+        return "hahahhah";
+    }
 }
